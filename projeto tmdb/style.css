@@ -1,0 +1,43 @@
+body{
+
+    background-color: black;
+    color: white;
+
+}
+
+section{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.card{
+    background-color: rgb(175, 175, 175);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    background-color: rgba(160, 159, 159, 0.536);
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoImg{
+    height: 100px;
+    width: 100px;
+}
